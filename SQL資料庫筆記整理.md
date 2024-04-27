@@ -824,9 +824,7 @@ explain
 select * from future_k
 where date = '2018-01-10';
 
-# ==================== #
-#  短句之間的互相配合  #
-# ==================== #
+#  短句之間的互相配合
 
 >INSERT INTO 資料表
 VALUES (值)
@@ -1192,7 +1190,6 @@ where id in = (
 
 # 交叉結合
 
-
 `select * from member ,purchase ;`
 
 ```
@@ -1208,7 +1205,6 @@ where member.id = purchase.member_id ;
 
 
 # 內部結合
-
 
 ## 以下兩個查詢句 功能相同
 ```
@@ -1249,13 +1245,7 @@ values
 'A123456789', 'jack123@gmail.com', 
 'https://www.example.com/jack123');
 ```
-#  實際案例演練
 
-
->三大法人欄位：日期，代碼，買進額度，法人類別，賣出額度
-股價欄位：日期，開，高，低，收，量
-
-create table 
 
 
 
